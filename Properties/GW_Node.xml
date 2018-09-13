@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<Environment>
+  <centers>
+  
+  	<CDEV>
+    <app id="dhdvgwme01" url="http://dhdvgwme01:8806/pc" name="PC" env="CDEV"  />
+    </CDEV>
+    
+    <TDEV>
+    <app id="dhdvgwme01" url="http://dhdvgwme01:8806/pc" name="CDev_PC" env="CDEV" />
+    <app id="dhdvgwme02" url="https://dhdvgwme02:8901/pc" name="PC" env="TDEV"/>
+    <app id="dhdvgwme03" url="https://dhdvgwme03:8902/bc" name="BC" env="TDEV"/>
+    <app id="dhdvgwme04" url="https://dhdvgwme04:8903/cc" name="CC" env="TDEV"/>
+    <app id="dhdvgwme05" url="https://dhdvgwme05:8904/ab" name="CM" env="TDEV"/>
+    </TDEV>
+    
+    <DEV>
+    <app id="dhdvgwpc01" url="https://dhdvgwpc01:8901/pc" name="PC" env="DEV"/>
+    <app id="dhdvgwbc01" url="https://dhdvgwbc01:8902/bc" name="BC" env="DEV"/>
+    <app id="dhdvgwcc01" url="https://dhdvgwcc01:8903/cc" name="CC" env="DEV"/>
+    <app id="dhdvgwcm01" url="https://dhdvgwcm01:8904/ab" name="CM" env="DEV"/>
+    <app id="dhdvgwpa01" url="https://dhdvgwpa01:8905/pc" name="PA" env="DEV"/>
+    </DEV>
+    
+    <QA>
+    <app id="shdvgwpc01" url="https://shdvgwpc01:8901/pc" name="PC" env="QA"/>
+    <app id="shdvgwbc01" url="https://shdvgwbc01:8902/bc" name="BC" env="QA"/>
+    <app id="shdvgwcc01" url="https://shdvgwcc01:8903/cc" name="CC" env="QA"/>
+    <app id="shdvgwcm01" url="https://shdvgwcm01:8904/ab" name="CM" env="QA"/>
+    <app id="shdvgwpa01" url="https://shdvgwpa01:8905/pc" name="PA" env="QA"/>
+    </QA>
+    
+    <TQA1>
+    <app id="shdvgwme03" url="https://shdvgwme03:8901/pc" name="PC" env="TQA1"/>
+    <app id="shdvgwme04" url="https://shdvgwme04:8902/bc" name="BC" env="TQA1"/>
+    <app id="shdvgwme05" url="https://shdvgwme05:8903/cc" name="CC" env="TQA1"/>
+    <app id="shdvgwme02" url="https://shdvgwme02:8904/ab" name="CM" env="TQA1"/>
+    </TQA1>
+    
+    <TQA2>
+    <app id="shdvgwme06" url="https://shdvgwme06:8901/pc" name="PC" env="TQA2"/>
+    <app id="shdvgwme07" url="https://shdvgwme07:8902/bc" name="BC" env="TQA2"/>
+    <app id="shdvgwme08" url="https://shdvgwme08:8903/cc" name="CC" env="TQA2"/>
+    <app id="shdvgwme09" url="https://shdvgwme09:8904/ab" name="CM" env="TQA2"/>
+    </TQA2>
+    
+    <TQA3>
+    <app id="shdvgwme0a" url="https://shdvgwme0a:8901/pc" name="PC" env="TQA3"/>
+    <app id="shdvgwme0b" url="https://shdvgwme0b:8902/bc" name="BC" env="TQA3"/>
+    <app id="shdvgwme0c" url="https://shdvgwme0c:8903/cc" name="CC" env="TQA3"/>
+    <app id="shdvgwme0d" url="https://shdvgwme0d:8904/ab" name="CM" env="TQA3"/>
+    </TQA3>
+    
+    <TRN>
+    <app id="thdvgwpc01" url="https://thdvgwpc01:8901/pc" name="PC" env="TRN"/>
+    <app id="thdvgwbc01" url="https://thdvgwbc01:8902/bc" name="BC" env="TRN"/>
+    <app id="thdvgwcc01" url="https://thdvgwcc01:8903/cc" name="CC" env="TRN"/>
+    <app id="thdvgwcm01" url="https://thdvgwcm01:8904/ab" name="CM" env="TRN"/>
+    <app id="thdvgwpa01" url="https://thdvgwpa01:8905/pc" name="PA" env="TRN"/>
+    </TRN>
+    
+    <UAT>
+    <app id="uhdvgwpc01" url="https://uhdvgwpc01:8901/pc" name="PC" env="UAT" />
+    <app id="uhdvgwbc01" url="https://uhdvgwbc01:8902/bc" name="BC" env="UAT" />
+    <app id="uhdvgwcc01" url="https://uhdvgwcc01:8903/cc" name="CC" env="UAT" />
+    <app id="uhdvgwcm01" url="https://uhdvgwcm01:8904/ab" name="CM" env="UAT" />
+    <app id="uhdvgwpa01" url="https://uhdvgwpa01:8905/pc" name="PA" env="UAT" />
+   </UAT>
+   
+   <PPD>
+    <app id="OHDVGWPO01" url="https://OHDVGWPO01:8901/pc" name="PC NODE1" env="PPD" />
+    <app id="OHDVGWPO02" url="https://OHDVGWPO02:8901/pc" name="PC NODE2" env="PPD" />
+    <app id="OHDVGWPO03" url="https://OHDVGWPO03:8901/pc" name="PC NODE3" env="PPD" />
+    <app id="OHDVGWPO04" url="https://OHDVGWPO04:8901/pc" name="PC NODE4" env="PPD" />
+    <app id="OHDVGWPO05" url="https://OHDVGWPO05:8901/pc" name="PC NODE5" env="PPD" />
+    
+    <app id="OHDVGWBO01" url="https://OHDVGWBO01:8902/bc" name="BC NODE1" env="PPD" />
+    <app id="OHDVGWBO02" url="https://OHDVGWBO02:8902/bc" name="BC NODE2" env="PPD" />
+    <app id="OHDVGWBO03" url="https://OHDVGWBO03:8902/bc" name="BC NODE3" env="PPD" />
+    <app id="OHDVGWBB01" url="https://OHDVGWBB01:8902/bc" name="BC NODE4" env="PPD" />
+    
+    <app id="OHDVGWCO01" url="https://OHDVGWCO01:8903/cc" name="CC NODE1" env="PPD" />
+    <app id="OHDVGWCO02" url="https://OHDVGWCO02:8903/cc" name="CC NODE2" env="PPD" />
+    <app id="OHDVGWCB01" url="https://OHDVGWCB01:8903/cc" name="CC NODE3" env="PPD" />
+    
+    <app id="OHDVGWAB01" url="https://OHDVGWAB01:8904/ab" name="CM NODE1" env="PPD" />
+    <app id="OHDVGWAB02" url="https://OHDVGWAB02:8904/ab" name="CM NODE2" env="PPD" />
+    
+    <app id="OHDVGWPA01" url="https://OHDVGWPA01:8905/pc" name="PCAGG NODE1" env="PPD" />
+    <app id="OHDVGWPA02" url="https://OHDVGWPA02:8905/pc" name="PCAGG NODE1" env="PPD" />
+    
+   </PPD>
+   
+   <PRD>
+    <app id="PHDVGWPO01" url="https://PHDVGWPO01:8901/pc" name="PC NODE1" env="PRD" />
+    <app id="PHDVGWPO02" url="https://PHDVGWPO02:8901/pc" name="PC NODE2" env="PRD" />
+    <app id="PHDVGWPO03" url="https://PHDVGWPO03:8901/pc" name="PC NODE3" env="PRD" />
+    <app id="PHDVGWPO04" url="https://PHDVGWPO04:8901/pc" name="PC NODE4" env="PRD" />
+    <app id="PHDVGWPO05" url="https://PHDVGWPO05:8901/pc" name="PC NODE4" env="PRD" />
+    
+    <app id="PHDVGWBO01" url="https://PHDVGWBO01:8902/bc" name="BC NODE1" env="PRD" />
+    <app id="PHDVGWBO02" url="https://PHDVGWBO02:8902/bc" name="BC NODE2" env="PRD" />
+    <app id="PHDVGWBO03" url="https://PHDVGWBO03:8902/bc" name="BC NODE3" env="PRD" />
+    <app id="PHDVGWBB01" url="https://PHDVGWBB01:8902/bc" name="BC NODE4" env="PRD" />
+    
+    <app id="PHDVGWCO01" url="https://PHDVGWCO01:8903/cc" name="CC NODE1" env="PRD" />
+    <app id="PHDVGWCO02" url="https://PHDVGWCO02:8903/cc" name="CC NODE2" env="PRD" />
+    <app id="PHDVGWCB01" url="https://PHDVGWCB01:8903/cc" name="CC NODE3" env="PRD" />
+    
+    <app id="PHDVGWAB01" url="https://PHDVGWAB01:8904/ab" name="CM NODE1" env="PRD" />
+    <app id="PHDVGWAB02" url="https://PHDVGWAB02:8904/ab" name="CM NODE2" env="PRD" />
+    
+    <app id="PHDVGWPA01" url="https://PHDVGWPA01:8905/pc" name="PCAGG NODE1" env="PRD" />
+    <app id="PHDVGWPA02" url="https://PHDVGWPA02:8905/pc" name="PCAGG NODE2" env="PRD" />
+   </PRD>
+   
+  </centers>
+</Environment>

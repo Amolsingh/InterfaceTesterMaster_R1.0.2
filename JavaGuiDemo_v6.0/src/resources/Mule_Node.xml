@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Environments>
+<Nodes>
+
+<PRD>
+  <nd env="PRD1" name="PHDVMULE01" internalHTTP="http://PHDVMULE01:8090"  internalHTTPS="https://PHDVMULE01:8091" externalHTTPS="https://PHDVMSGW01:8908" />
+  <nd env="PRD2" name="PHDVMULE02" internalHTTP="http://PHDVMULE02:8090"  internalHTTPS="https://PHDVMULE02:8091" externalHTTPS="https://PHDVMSGW02:8908" />
+</PRD>
+
+<PPD>
+  <nd env="PPD1" name="OHDVMULE01" internalHTTP="http://OHDVMULE01:8090" internalHTTPS="https://OHDVMULE01:8091" externalHTTPS="https://OHDVMSGW01:8908" />
+</PPD>
+
+<TRN>
+  <nd env="QA1" name="MHDVMULE01" internalHTTP="http://MHDVMULE01:8090" internalHTTPS="https://MHDVMULE01:8091" externalHTTPS="https://MHDVMSGW01:8908" />
+</TRN>
+
+<UAT>
+  <nd env="QA1" name="MHDVMULE01" internalHTTP="http://MHDVMULE01:8090" internalHTTPS="https://MHDVMULE01:8091" externalHTTPS="https://MHDVMSGW01:8908" />
+</UAT>
+
+<QA>
+  <nd env="QA1" name="MHDVMULE01" internalHTTP="http://MHDVMULE01:8090" internalHTTPS="https://MHDVMULE01:8091" externalHTTPS="https://MHDVMSGW01:8908" />
+</QA>
+
+<DEV>
+  <nd env="DEV1" name="DHDVMULE01" internalHTTP="http://DHDVMULE01:8090" internalHTTPS="https://DHDVMULE01:8091" externalHTTPS="https://DHDVMSGW01:8908" />
+</DEV>
+
+</Nodes>
+</Environments>
